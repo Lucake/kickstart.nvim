@@ -1,0 +1,9 @@
+{
+  "Test Snippet": {
+    "prefix": "testrapouso",
+    "body": [
+      "Hello, Rapouso!"
+    ],
+    "description": "A simple test snippet"
+  }
+}
