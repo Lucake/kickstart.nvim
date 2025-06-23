@@ -3,8 +3,8 @@ vim.keymap.set('n', '<leader>]', '<Cmd>Neotree float reveal<Cr>')
 vim.keymap.set({ 'n', 'x', 'i', 's' }, '<C-s>', '<Cmd>w<Cr>')
 
 -- Buffer Navigation
-vim.keymap.set('n', '<Leader>bn', '<Cmd>bnext<CR>', { noremap = true, silent = true, desc = 'Buffer: Next' })
-vim.keymap.set('n', '<Leader>bp', '<Cmd>bprevious<CR>', { noremap = true, silent = true, desc = 'Buffer: Previous' })
+vim.keymap.set('n', '<Alt>]', '<Cmd>bnext<CR>', { noremap = true, silent = true, desc = 'Buffer: Next' })
+vim.keymap.set('n', '<Alt>[', '<Cmd>bprevious<CR>', { noremap = true, silent = true, desc = 'Buffer: Previous' })
 
 --Notes
 -- Launch panel if nothing is typed after <leader>z

@@ -10,6 +10,8 @@ local files = {
   myconfig = 'config\\myconfig.lua',
   autocmds = 'config\\autocmds.lua',
   shortcuts = 'config\\shortcuts.lua',
+  templates = 'config\\template.lua',
+
   snippets = 'config\\snippets',
   themes = 'config\\themes.lua',
   plugins = '\\custom\\plugins',
@@ -38,6 +40,7 @@ vim.api.nvim_create_user_command('Cfg', function(opts)
     require 'config.myconfig'
     require 'config.autocmds'
     require 'config.shortcuts'
+    require 'config.template'
     require 'config.themes'
     require 'custom.plugins'
     require 'config.notes'

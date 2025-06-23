@@ -44,6 +44,7 @@ end
 local languages = {
   lua = '%lua',
   javascript = '!node %',
+  typescript = '!node %',
 }
 
 --run code based on language
